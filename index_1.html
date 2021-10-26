@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Мой сайт</title>
+ </head>
+ <body>
+  <div id="container">
+   <div id="header"><img src="./img/img.jpg" width="1500" height="430" class="max"></div>
+   <div id="sidebar">
+    <p><a href="index_1.html">Главная(Ввод)</a></p>
+    <p><a href="html.html">О себе</a></p>
+    <p><a href="napravlenie.html">О направлении</a></p>
+    <p><a href="nfbgu.html">О НФБГУ</a></p>
+    <p><a href="forma.html">Форма</a></p>
+   </div>
+   <div id="content">
+
+    <h2>Я, Яхин Ильназ</h2>
+
+    Это мой сайт, если хотите задать Мне Вопрос:
+      <form action="forma.php" method="post">
+      	<label for="name">Введите имя:</label></p>
+      	<p><input placeholder="ИМЯ"required
+      		style="width: 120px;" type="text" name="login"></p>
+      		<label for="name">Введите пароль:</label></p>
+      		<p><input placeholder="Не простой пароль"style="width: 120px" name="password"></p>
+          <label for="name">Укажите город:</label><p>
+          </p>
+      			<select style="width: 128px;" name="citi" >
+      				<option>Уфа</option>
+      				<option>Нефтекамск</option>
+      				<option>Янаул</option>
+      				<option>Агидель</option>
+      		    </select>
+            </p>
+
+
+            <label for="work">Вы работаете или нет:</label>
+            <input type="checkbox" name="work">
+
+            <label for="work">Вы работаете или нет:</label>
+            <textarea id="comments"></textarea>
+          <p><input type="submit"></p>
+        </form>
+  
+   </div>
+   <div id="footer">© Яхин Ильназ</div>
+  </div> 
+ </body>
+</html>я
